@@ -31,6 +31,8 @@ public class ReglaDeTres {
 				try (Scanner scan = new Scanner(System.in)) {
 					System.out.print("Introduzca valor A: ");
 
+				// PUEDO DEFINIR LAS VARIABLES DE DIFERENTE FORMA: double a, b, c... ENTONCES, YA NO TENGO QUE DEFINIRLAS LUEGO.
+					
 					double a = scan.nextDouble();
 
 					System.out.print("Introduzca valor B: ");
