@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\David\repositoriosgit\repositorios2425\david-s-repository\programacion\.metadata\.plugins\org.eclipse.jdt.core
