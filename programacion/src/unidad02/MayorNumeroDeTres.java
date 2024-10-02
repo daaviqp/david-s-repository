@@ -10,7 +10,7 @@ import java.util.Scanner;
  * o
  * - while.
  */
-public class MayorNumerot {
+public class MayorNumeroDeTres {
 
 	public static void main(String[] args) {
 		// Opción A. Indicamos el número de datos aevaluar.
@@ -33,13 +33,14 @@ public class MayorNumerot {
 			System.out.println("Te faltan " + (numeroDeDatos - index - 1) + " datos");
 	}
 	System.out.println("El mayor número introducido es el " + mayorNumero);
+	scan.close();
 		
 		
 		
 		
 		
 		// Opción B. Establecemos una instrucción de parada (hacerlo en casa).
-		
+		String numeroCadena = scan.nextLine();
 		
 
 	}
