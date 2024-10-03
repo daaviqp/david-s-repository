@@ -21,24 +21,16 @@ public class MayorNumerowhile {
 			System.out.println("Introduce un entero: ");
 			dato = scan.nextLine();
 			salir = "STOP".equalsIgnoreCase(dato) ? true : false;
-			} while (!salir);
-		//for (int index = numeroDeDatos; index > 0; index--) {
-			System.out.println("Introduce el dato número " + (index + 1));
-			System.out.println("Recuerda que vas a introducir " + numeroDeDatos);
-			int numActual = scan.nextInt();
-			if (mayorNumero < numActual) {
-				mayorNumero = numActual;
+			salir = true
+			} else {
+				int datoEntero = Integer.parseInt(dato);
+				if (datoEntero > mayorNumero) {
+					mayorNumero = datoEntero;
+				}
 			}
-			System.out.println("Te faltan " + (numeroDeDatos - index - 1) + " datos");
+	} while (!salir)
 	}
 	System.out.println("El mayor número introducido es el " + mayorNumero);
 	scan.close();
-
-	
-	
-	
-	
-	while (condicion) {
-	}
 
 }
