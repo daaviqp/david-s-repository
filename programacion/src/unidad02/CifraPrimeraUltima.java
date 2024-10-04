@@ -21,7 +21,7 @@ public class CifraPrimeraUltima {
 		// AQUÍ OBLIGAMOS AL USUARIO A INTRODUCIR UNA OPCIÓN VÁLIDA.
 		boolean correcto = true;
 		do { 		
-			int opcion =scan.nextInt();
+			int opcion = scan.nextInt();
 			switch (opcion) {
 		case 1:
 			// OBTIENE LA PRIMERA CIFRA DEL NÚMERO.
