@@ -25,7 +25,7 @@ public class EtapaVital {
 			System.out.println("Eres un niñ@");
 		} else if (edad <= 18) {
 			System.out.println("Eres un adolescente");
-		} else if (edad <= 65) {
+		} else if (edad <= 45) {
 			System.out.println("Eres un adulto");
 		} else if (edad <= 65) {
 			System.out.println("Eres un anciano");
