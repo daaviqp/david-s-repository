@@ -78,7 +78,7 @@ public class PiedraPapeloTijera {
 			} break;
 		}
 		
-		
+	
 
 		
 		
@@ -88,7 +88,7 @@ public class PiedraPapeloTijera {
 		
 		
 		
-		
+
 		
 		
 		
