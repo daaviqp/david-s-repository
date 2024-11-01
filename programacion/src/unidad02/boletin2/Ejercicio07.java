@@ -25,7 +25,7 @@ public class Ejercicio07 {
 		System.out.print("Introduce la respuesta que creas que es correcta:");
 		char respuesta1 = scan.next().charAt(0);
         if (respuesta1 == 'b') {
-            puntuacion = +2;
+            puntuacion = 2;
         } else {
             puntuacion = 0;
         }
@@ -46,8 +46,6 @@ public class Ejercicio07 {
         System.out.println("Tu calificación final es de " + puntuacion + " puntos");
 
 		
-	
-
 	}
 
 }

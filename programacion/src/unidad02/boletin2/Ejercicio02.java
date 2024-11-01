@@ -20,14 +20,14 @@ public class Ejercicio02 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Este programa mresuelve ecuaciones de primer grado del tipo ax + b = 0.");
-		System.out.print("Introduce el valor a: ");
+		System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax+b=0");
+		System.out.print("Introduzca el primer valor a: ");
 		double a = scan.nextDouble();
-		System.out.print("Introduce el valor b: ");
+		System.out.print("Introduzca el primer valor b: ");
 		double b = scan.nextDouble();
 		double x = (-b/a);
 		scan.close();
-		System.out.println("x = " + x);
+		System.out.println("El resultado de la ecuación es " + x);
 
 	}
 

@@ -20,17 +20,19 @@ public class Ejercicio01 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Este programa muestra el sueldo semanal que le corresponde.");
-		System.out.print("Introduzca el número de horas que ha trabajado: ");
+		System.out.println("Este programa te dice cuánto dinero te corresponde según tus horas trabajadas.");
+		System.out.print("Introduce el número de horas que has trabajado: ");
 		int horas = scan.nextInt();
-		int sueldo = 0;
+		int salario = 0;
 		scan.close();
-		if (horas <= 40) {
-			sueldo = horas * 12;
+		if (horas > 0 && horas <= 40) {
+			salario = horas * 12;
+			System.out.println("Tu sueldo es de " + salario + "€");
+			
 		} else {
-			sueldo = (40*12) + ((horas - 40) * 16);			
+			salario = ((horas - 40) * 16);
+			System.out.println("Tu sueldo es de " + salario + "€");
 		}
-		System.out.println("El sueldo semanal que le corresponde es de " + sueldo + " euros.");
 		
 	}
 

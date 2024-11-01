@@ -17,7 +17,7 @@ public class Ejercicio06 {
 		int minuto = scan.nextInt();
 		int horasParaMediaNoche = (23 - hora);
 		int minutosParaMediaNoche = (60 - minuto);
-		int segundosParaMediaNoche = horasParaMediaNoche * 3600 + minutosParaMediaNoche *60;
+		int segundosParaMediaNoche = horasParaMediaNoche * 3600 + minutosParaMediaNoche * 60;
 		scan.close();
 		System.out.println("Faltan " + segundosParaMediaNoche + " segundos para la media noche.");
 		

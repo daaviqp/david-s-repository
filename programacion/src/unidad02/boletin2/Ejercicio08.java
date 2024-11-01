@@ -41,7 +41,7 @@ public class Ejercicio08 {
 					menor = numero3;
 				}
 			} else {
-				// numero2 >numero1
+				// numero2 > numero1
 				mayor = numero2;
 				menor = numero1;
 				mediano = numero3;

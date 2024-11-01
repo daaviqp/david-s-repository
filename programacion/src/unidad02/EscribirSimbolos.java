@@ -65,9 +65,9 @@ public class EscribirSimbolos {
 			
 			}
 	
-	
-		
-		
+		}
+	}
+}	
 		
 		
 	
