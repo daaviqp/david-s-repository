@@ -23,11 +23,16 @@ public class Ejercicio03 {
 			int B = scan.nextInt();
 			int resultado = A / B;
 			System.out.println("El resultado de la operación es " + resultado);
+			scan.close();
 			
+			/*
+			 * El try es lo que tiene que ejecutar, luego, el catch son las 
+			 * excepciones que tiene.
+			 */
 			
-		} catch (InputMismatchException e) {
+		} catch (InputMismatchException e) { // EXCEPCIÓN
 			System.out.println("Solo se permite introducir números enteros.");
-		} catch (ArithmeticException e) {
+		} catch (ArithmeticException e) { // EXCEPCIÓN
 			System.out.println("No se puede dividir por 0.");
 			
 		}

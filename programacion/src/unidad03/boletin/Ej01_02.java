@@ -1,9 +1,9 @@
-package unidad03;
+package unidad03.boletin;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Ejercicio01 {
+public class Ej01_02 {
 
 	public static void main(String[] args) {
 

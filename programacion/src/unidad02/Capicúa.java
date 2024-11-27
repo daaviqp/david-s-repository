@@ -5,24 +5,34 @@ import java.util.Scanner;
 public class Capicúa {
 
 	public static void main(String[] args) {
-		// Comprobar si un número es capicúa (se lee igual al derecho que al revés)
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Este programa muestra si el número introducido es capicúa.");
-		System.out.print("Introduce el número que quieres comprobar: ");
+		System.out.println("Este programa indicará si un número es o no capicúa.");
+		System.out.println("Introduce un número");
 		long numero = scan.nextLong();
-		long numeroActual = numero;
+		long numActual = numero;
 		int numCifras = 1;
-		while (numeroActual/10 !=0) {
+		while (numActual / 10 != 0) {
 			numCifras++;
-			numeroActual = numeroActual / 10;			
-			
+			numActual = numActual / 10;
 		}
-		
-		for (int i = 0;;i++) {
-			
-		}
-				
 
+		// ultimo número %10
+		// primer número /1(x0) tantos ceros como numCifras-1
+		boolean capicua = true;
+		for (int i = 0; i < numCifras / 2; i++) {
+			long numDiv = (long) Math.pow(10, numCifras - i - 1);
+			long numMod = (long) Math.pow(10, i);
+			double numDelante = (numero / numDiv) % 10;
+			double numDetras = (numero / numMod) % 10;
+			if (numDelante != numDetras) {
+				capicua = false;
+			}
+		}
+		if (capicua) {
+			System.out.println("ES CAPICUA");
+		} else {
+			System.out.println("NO ES CAPICUA");
+		}
 	}
 
 }

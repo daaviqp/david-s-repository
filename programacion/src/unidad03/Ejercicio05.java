@@ -10,8 +10,7 @@ import java.util.Scanner;
 public class Ejercicio05 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Este programa muestra cuánto falta para tu cumpleaños.");
+		
 		
 
 	}
