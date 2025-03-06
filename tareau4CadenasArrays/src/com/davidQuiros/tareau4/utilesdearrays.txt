@@ -1,0 +1,24 @@
+1. sort(T[] a):
+   Este método ordena los elementos del arreglo "a" en orden ascendente. Utiliza un algoritmo eficiente basado en Quicksort o Timsort, dependiendo del tamaño del arreglo.  
+
+
+2. binarySearch(T[] a, T key):
+   Busca el índice de un elemento "key" en un arreglo "a" ordenado usando la búsqueda binaria. Si el elemento no se encuentra, devuelve un valor negativo indicando el punto de inserción.  
+
+
+3. equals(T[] a, T[] a2):
+   Compara si dos arreglos "a" y "a2" son iguales en tamaño y contenido. Devuelve "true" si ambos son idénticos.  
+
+
+4. fill(T[] a, T val):
+   Rellena todos los elementos del arreglo "a" con el valor especificado "val".  
+
+
+5. copyOf(T[] original, int newLength):  
+   Crea una copia del arreglo "original" con una nueva longitud "newLength". Si la longitud es mayor, los elementos adicionales se rellenan con valores predeterminados (por ejemplo, "null" para objetos).  
+
+
+6. toString(T[] a):
+   Devuelve una representación en forma de cadena de un arreglo. El formato incluye los elementos del arreglo entre corchetes, separados por comas.  
+
+
