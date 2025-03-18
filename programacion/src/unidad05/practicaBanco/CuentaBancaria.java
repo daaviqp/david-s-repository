@@ -1,6 +1,6 @@
 package unidad05.practicaBanco;
 
-public class CuentaBancaria {
+public class CuentaBancaria implements Imprimible{
 
 	// titular, saldo y numero de cuenta
 	private Persona titular; // objeto de la clase persona, que contiene nombre, apellidos...
@@ -59,6 +59,14 @@ public class CuentaBancaria {
 	 */
 	public void setNumeroCuenta(String numeroCuenta) {
 		this.numeroCuenta = numeroCuenta;
+	}
+	
+
+	// 
+	public String devolverInfoString() {
+		return "Titular: " + this.getTitularCuenta().devolverInfoString() + "\n" + 
+				"Numero de cuenta: " + this.getNumeroCuenta() + "\n" +
+				"Saldo actual: " + this.getSaldoActual() + "\n";
 	}
 	
 	

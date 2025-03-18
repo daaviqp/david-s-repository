@@ -1,6 +1,6 @@
 package unidad05.practicaBanco;
 
-public class Persona {
+public class Persona implements Imprimible  {
 	
 	// no se como se llama esto
 	private String nombre;
@@ -57,6 +57,9 @@ public class Persona {
 		this.dni = dni;
 	}
 	
-		
+
+	public String devolverInfoString() {
+		return "Nombre: " + this.getNombre() + "\nApellidos: " + this.getApellidos() + "\nDNI: " + this.getDni();
+	}
 	
 }
