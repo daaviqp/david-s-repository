@@ -5,37 +5,37 @@ import java.util.*;
 
 public class Atropodos293 {
 
-static Scanner in;
+	static Scanner in;
 
-public static void casoDePrueba() {
+	public static void casoDePrueba() {
 
- // TU CÓDIGO AQUÍ.
- // Procesa un único caso leyendo con
- // in.next*()
-	
-	int insectos = in.nextInt();
-	int aracnidos = in.nextInt();
-	int crustaceos = in.nextInt();
-	int escalopendras = in.nextInt();
-	int numeroAnillosEscalopendras = in.nextInt();
-	
-	insectos *= 6;
-	aracnidos *= 8;
-	crustaceos *= 10;
-	escalopendras *= numeroAnillosEscalopendras * 2;
-	int totalPatas = insectos + aracnidos + crustaceos + escalopendras;
-	System.out.println(totalPatas);
+		// TU CÓDIGO AQUÍ.
+		// Procesa un único caso leyendo con
+		// in.next*()
 
-} // casoDePrueba
+		int insectos = in.nextInt();
+		int aracnidos = in.nextInt();
+		int crustaceos = in.nextInt();
+		int escalopendras = in.nextInt();
+		int numeroAnillosEscalopendras = in.nextInt();
 
-public static void main(String[] args) {
+		insectos *= 6;
+		aracnidos *= 8;
+		crustaceos *= 10;
+		escalopendras *= numeroAnillosEscalopendras * 2;
+		int totalPatas = insectos + aracnidos + crustaceos + escalopendras;
+		System.out.println(totalPatas);
 
- in = new java.util.Scanner(System.in);
+	} // casoDePrueba
 
- int numCasos = in.nextInt();
- for (int i = 0; i < numCasos; i++)
-   casoDePrueba();
+	public static void main(String[] args) {
 
-} // main
+		in = new java.util.Scanner(System.in);
+
+		int numCasos = in.nextInt();
+		for (int i = 0; i < numCasos; i++)
+			casoDePrueba();
+
+	} // main
 
 } // class Solution
